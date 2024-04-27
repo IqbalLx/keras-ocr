@@ -26,7 +26,7 @@ version = "0.0.0"
 
 # See https://python-poetry.org/docs/versions/ for allowed version specification formats
 [tool.poetry.dependencies]
-python = ">=3.7.5"
+python = ">=3.9"
 validators = "*"
 essential_generators = "*"
 tqdm = "*"
@@ -36,6 +36,8 @@ editdistance = "*"
 pyclipper = "*"
 shapely = "*"
 efficientnet = "1.0.0"
+numpy = "^1.26.4"
+tensorflow = {extras = ["and-cuda"], version = "^2.16.1"}
 
 [tool.poetry.dev-dependencies]
 black = "*"
